@@ -1,0 +1,93 @@
+.quattrocento-regular {
+  font-family: "Quattrocento", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+*{
+  font-family: "Quattrocento", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body{
+  background-color: #1A1A1C;
+  color: #FFFFFF;
+  padding: 20px;
+}
+
+.nav-element{
+  display: flex;
+  justify-content: space-between;
+}
+
+#search-bar{
+  width: 70%;
+  /* height: 80px; */
+  background-color: #1A1A1C;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  font-size: 24px;
+  border: 1px solid #FFFFFF;
+}
+
+.btn{
+  width: 15%;
+  margin: 0 10px 0 10px;
+  font-size: 20px;
+  background-color: #1A1A1C;
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  padding: 0 20px;
+}
+
+table img{
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+}
+
+.tableContainer{
+  display: flex;
+  /* justify-content: space-between; */
+  font-size: 24px;
+  /* width: 700px; */
+  margin-top: 50px;
+}
+
+
+tr{
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  gap: 40px;
+  text-align: left;
+  border-bottom: 1px solid #FFFFFF;
+  padding: 16px 0px;
+}
+.img-row{
+  width: 50px;
+}
+
+.name-row{
+  width: 200px;
+}
+.symbol-row{
+  width: 150px;
+}
+.price-row{
+  width: 200px;
+}
+.volume-row{
+  width: 200px;
+}
+.percent-row{
+  width: 100px;
+}
+
+.red{
+  color: red;
+}
+.green{
+  color: green;
+}
